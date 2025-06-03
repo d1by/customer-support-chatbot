@@ -6,8 +6,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 import pickle
 import nltk
-from googletrans import Translator
-import langid
 from textblob import TextBlob
 import spacy
 import logging
@@ -71,6 +69,9 @@ def generate_response(user_input):
         return random.choice(responses.tolist())
     
 def chatbot(user_input):
+    if user_input == "!help":
+        return "".join([f"{x}, " for x in data['intent'].unique()])
+
     entities = extract_entities(user_input)
     print(f"Extracted entities: {entities}")
 
@@ -86,7 +87,7 @@ def chatbot(user_input):
 # streamlit app
 import streamlit as st
 
-st.markdown("Hello!")
+st.markdown("Hello! Run '!help' to see available commands. ")
 
 prompt = st.chat_input("Say something... ")
 if prompt:
