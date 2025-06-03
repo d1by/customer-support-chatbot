@@ -13,10 +13,12 @@ import random
 
 nltk.download("wordnet")
 
-import en_core_web_sm
-nlp = en_core_web_sm.load()
-
-# nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    from spacy.cli import download
+    download("en")
+    nlp = spacy.load("en")
 
 logging.basicConfig(filename='chatbot.log', level=logging.INFO)
 
