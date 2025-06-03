@@ -18,3 +18,16 @@ INFO:root:Query: Cancel order number 123123 => Response: I get that you've tried
 I apologize for any inconvenience caused and appreciate your patience. Rest assured, our team is here to assist you and provide a resolution to your inquiry.
 INFO:root:Query: hello => Response: I didn't understand, please rephrase.
 INFO:root:Query: track order => Response: I appreciate your inquiry! To check the status of purchase {{Order Number}}, you can visit the '{{Order Tracking}}' section on our website. It's an easy and convenient way to stay updated on the progress of your purchase. If you have any other questions or need further assistance, please don't hesitate to let me know. I'm here to help you every step of the way.
+INFO:root:Query: I want to register a complaint => Response: I didn't understand, please rephrase.
+INFO:root:Query: Complaint => Response: I acknowledge that you require assistance filing a claim against our organization. I apologize for any inconvenience or dissatisfaction you may have experienced. Our team is committed to addressing and resolving customer concerns effectively. To ensure that your claim is processed efficiently, please provide us with the necessary details of your claim, such as the nature of the issue, relevant documentation, and any supporting evidence. Rest assured that we will review your claim thoroughly and take the appropriate measures to address it. Thank you for bringing this matter to our attention, and we appreciate your patience during this process.
+INFO:root:Query: KAchow => Response: I didn't understand, please rephrase.
+INFO:root:Query: i want to check my invoice => Response: Sure! I completely understand your desire to see the bill from {{Salutation}} {{Client Last Name}}. Let me guide you through the process. To access your bill, please log in to your account on our website and navigate to the "Billing" or "Account" section. There, you should find a detailed overview of your bill, including the charges and due dates. If you need any further assistance or encounter any difficulties, please don't hesitate to reach out. I'm here to help you every step of the way.
+INFO:root:Query: i want to check my invoice => Response: I see what you mean your urgency to quickly view the invoice with the number #{{Invoice Number}}. Let me guide you through the process. To access your invoice, you can visit our website and log into your account. Once logged in, go to the "Invoices" section, where you should be able to find the invoice with the number #{{Invoice Number}}. If you encounter any difficulties or need further assistance, please don't hesitate to let me know.
+INFO:root:Query: invoice please => Response: I'm picking up what you're putting down, your need to download invoice #{{Invoice Number}}. Let me guide you through the process step by step. To download your invoice, please follow these instructions:
+
+1. Log in to your account on our website.
+2. Navigate to the "Billing" or "Invoices" section.
+3. Look for the invoice with number #{{Invoice Number}}.
+4. Click on the download button or the provided link to initiate the download.
+
+If you encounter any difficulties or have further questions, feel free to let me know. I'm here to help you throughout the process.
